@@ -1,0 +1,73 @@
+
+.about {
+  width: 89%;
+  height: 300vh;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: white;
+}
+
+.aboutTop {
+  width: 90%;
+  height:35%;
+  padding: 25px;
+  margin-left: 5%;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.aboutBottom p {
+  border: 50px solid transparent;
+  width: 700px;
+  font-size: 20px;
+  padding: 25px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+
+.about .aboutBottom h1 {
+  font-weight: 300;
+  font-size: 50px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  padding: 25px;
+  background-color: #fff;
+  margin: 10px;
+}
+
+.about .aboutBottom h2 {
+  font-weight: 300;
+  font-size: 50px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  padding: 25px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.about .ImagPass{
+  width: 50%;
+  height: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 15%;
+}
