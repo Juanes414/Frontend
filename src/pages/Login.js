@@ -3,6 +3,7 @@ import BannerImage from "../assets/Fondo.png";
 import "../styles/Home.css";
 import "../styles/Contact.css";
 import "../styles/Login.css";
+import SelectInput from "@material-ui/core/Select/SelectInput";
 
 function Login() {
   return (
@@ -14,7 +15,7 @@ function Login() {
             <input name="email" placeholder="Ingrese su Email..." type="email" />
             <label htmlFor="name">Contraseña</label>
             <input name="name" placeholder="Contraseña" type="password" />
-                <button type="submit"> Ingresar</button>
+                <button type="submit"> Ingresar</button>   
         </form>
       </div>
     </div>

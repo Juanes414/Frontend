@@ -18,14 +18,20 @@ function Navbar() {
           <Link to="/"> Inicio </Link>
           <Link to="/Planpp"> Plan PP  </Link>
           <Link to="/contact"> Contacto </Link>
-          <Link to="/Login"> Iniciar Sesion </Link>
+          <Link to="/admins"> Administrador </Link>
+          <Link to="/users"> Usuario </Link>
+          <Link to="/employeeds"> Empleado </Link>
+          <Link to="/"> Cerrar Sesion </Link>
         </div>
       </div>
       <div className="rightSide">
           <Link to="/"> Inicio </Link>
           <Link to="/about"> Plan PP  </Link>
           <Link to="/contact"> Contacto </Link>
-          <Link to="/Login"> Iniciar Sesion </Link>
+          <Link to="/admins"> Administrador </Link>
+          <Link to="/users"> Usuario </Link>
+          <Link to="/employeeds"> Empleado </Link>
+          <Link to="/"> Cerrar Sesion </Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>
